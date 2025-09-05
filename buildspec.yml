@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo Starting build process
+      - echo Validating source files
+  build:
+    commands:
+      - echo Building static assets
+      - echo Optimizing files for production
+      - ls -la
+  post_build:
+    commands:
+      - echo Build process completed
+      - echo Preparing artifacts for deployment
+artifacts:
+  files:
+    - '**/*'
+  name: portfolio-$(date +%Y%m%d-%H%M%S)
