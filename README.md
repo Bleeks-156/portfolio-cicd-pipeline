@@ -2,6 +2,12 @@
 
 A professional portfolio website with automated deployment infrastructure using AWS DevOps services.
 
+## 📺 Demo Video
+
+[![Personal Portfolio CI/CD Pipeline Demo](https://img.shields.io/badge/▶️-Watch%20Demo-red?style=for-the-badge)](https://drive.google.com/file/d/1w0b2DPa6PNyfA5nqt_Biuxa09rE7NcF6/view?usp=sharing)
+
+*Complete walkthrough of the CI/CD pipeline from code commit to live deployment*
+
 ## Project Overview
 
 This project demonstrates the implementation of a complete CI/CD pipeline for a static website using AWS cloud services. The pipeline automatically builds and deploys changes from the source repository.
